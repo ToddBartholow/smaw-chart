@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>SMAW Electrodess</title>
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+  <h1>SMAW Electrodes</h1>
+
+<div id="filters" class="button-group">
+  <button class="button is-checked" data-sort-value="*">show all</button>
+  <button class="button" data-filter=".fast-fill">Fast Fill</button>
+  <button class="button" data-filter=".fill-freeze">Fill Freeze</button>
+  <button class="button" data-filter=".fast-freeze">Fast Freeze</button>
+  <button class="button" data-filter=".low-hydrogen">Low Hydrogen</button>
+  <button class="button" data-filter="ac">AC</button>
+  <button class="button" data-filter="dcep">DC+</button>
+  <!-- <button class="button" data-filter=".position">position</button> -->
+  <button class="button" data-filter=".iron-powder">Iron Powder</button>
+  <button class="button" data-filter="numberGreaterThan60">70kpsi</button>
+  <!-- <button class="button" data-filter=".penetration">penetration</button> -->
+</div>
+
+<div class="isotope">
+  <div class="element-item fast-freeze cellulosic" data-category="fast-freeze">
+    <h3 class="name">6010</h3>
+    <p class="coating">Cellulose Sodium</p>
+    <p class="polarity">DC+</p>
+    <p class="position">F,V,OH,H</p>
+  </div>
+  <div class="element-item fast-freeze cellulosic " data-category="fast-freeze">
+    <h3 class="name">6011</h3>
+    <p class="coating">Cellulose Potassium</p>
+    <p class="polarity">AC DC+</p>
+    <p class="position">F,V,OH,H</p>
+  </div>
+  <div class="element-item fill-freeze rutile " data-category="fill-freeze">
+    <h3 class="name">6012</h3>
+    <p class="coating">Rutile</p>
+    <p class="polarity">AC DC-</p>
+    <p class="position">F,V,OH,H</p>
+  </div>
+  <div class="element-item fill-freeze rutile " data-category="fill-freeze">
+    <h3 class="name">6013</h3>
+    <p class="coating">Rutile</p>
+    <p class="polarity">AC DC±</p>
+    <p class="position">F,V,OH,H</p>
+  </div>
+  <div class="element-item fill-freeze iron-powder" data-category="fill-freeze">
+    <h3 class="name">7014</h3>
+    <p class="coating">Iron Powder, Titania</p>
+    <p class="polarity">AC DC±</p>
+    <p class="position">F,V,OH,H</p>
+  </div>
+  <div class="element-item low-hydrogen" data-category="fill-freeze">
+    <h3 class="name">7015</h3>
+    <p class="coating">Low Hydrogen Sodium</p>
+    <p class="polarity">DC+</p>
+    <p class="position">F,V,OH,H</p>
+  </div>
+  <div class="element-item low-hydrogen" data-category="fill-freeze">
+    <h3 class="name">7016</h3>
+    <p class="coating">Low Hydrogen Potassium</p>
+    <p class="polarity">AC DC+</p>
+    <p class="position">F,V,OH,H</p>
+  </div>
+  <div class="element-item low-hydrogen iron-powder" data-category="fill-freeze">
+    <h3 class="name">7018</h3>
+    <p class="coating">Low Hydrogen, Iron Powder</p>
+    <p class="polarity">AC DC+</p>
+    <p class="position">F,V,OH,H</p>
+  </div>
+  <div class="element-item fill-freeze iron-oxide" data-category="fill-freeze">
+    <h3 class="name">6019</h3>
+    <p class="coating">Iron Oxide, Titania Potassium</p>
+    <p class="polarity">AC DC±</p>
+    <p class="position">F,V,OH,H</p>
+  </div>
+  <div class="element-item fast-fill" data-category="fast-fill">
+    <h3 class="name">6020</h3>
+    <p class="coating">High Iron Oxide</p>
+    <p class="polarity">AC DC- (*)</p>
+    <p class="position">F,H-fillets</p>
+  </div>
+  <div class="element-item fill-freeze rutile" data-category="fill-freeze">
+    <h3 class="name">6022</h3>
+    <p class="coating">High Iron Oxide</p>
+    <p class="polarity">AC DC-</p>
+    <p class="position">F,H</p>
+  </div>
+  <div class="element-item fast-fill iron-powder" data-category="fast-fill">
+    <h3 class="name">7024</h3>
+    <p class="coating">Iron Powder</p>
+    <p class="polarity">AC DC±</p>
+    <p class="position">F,H-fillets</p>
+  </div>
+  <div class="element-item fast-fill" data-category="fast-fill">
+    <h3 class="name">6027</h3>
+    <p class="coating">High Iron Oxide, Iron Powder</p>
+    <p class="polarity">AC DC± (*)</p>
+    <p class="position">F,H-fillets</p>
+  </div>
+  <div class="element-item low-hydrogen" data-category="fast-fill">
+    <h3 class="name">7028</h3>
+    <p class="coating">Low Hydrogen, Potassium, Iron Powder</p>
+    <p class="polarity">AC DC+</p>
+    <p class="position">F,H,H-fillets</p>
+  </div>
+  <div class="element-item low-hydrogen iron-powder" data-category="fill-freeze">
+    <h3 class="name">7048</h3>
+    <p class="coating">Low Hydrogen, Potassium, Iron Powder</p>
+    <p class="polarity">AC DC+</p>
+    <p class="position">F,OH,H,V-down</p>
+   </div>
+  </div>
+<div class="notes">
+   <p><b>The abbreviations indicate the welding positions as follows:</b>
+   <p>F = Flat
+   <p>H = Horizontal
+   <p>H-fillets = Horizontal fillets
+   <p>V-down = Vertical with downward progression
+   <p>V = Vertical (For electrodes 3/16 in. (4.8mm) and under, except 5/32 in. (4.0mm))
+   <p>OH = Overhead and under for classifications E7014, E7015, E7016, E7018, and E7018M.
+   <p><b>The term "dcep" refers to direct current electrode positive (dcep, reverse polarity). The term "dcen" refers to direct current electrode negative (dc, straight polarity).</b>
+   <p><b>Electrodes of the E6022 classification are intended for single-pass welds only.</b>
+
+</div>
+  <!-- <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script> -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src='js/isotope.pkgd.min.js'></script>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
