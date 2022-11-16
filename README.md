@@ -1,3 +1,3 @@
 An interactive SMAW electrode chart. 
 
-demo here: http://tools.tradeschool.io/SMAW/
+demo here: http://tradeschool.io/tools/SMAW/
